@@ -3,80 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your GitHub Profile</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- Add any additional styles or fonts here -->
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="{{ site.baseurl }}/style.css">
 </head>
 <body>
-
-<div class="container">
-
-    <header>
-        <h1>Your Name</h1>
-        <p>Web Developer</p>
-    </header>
-
-    <section class="github-section">
-        <h2>GitHub Repositories</h2>
-        <div class="repo">
-            <h3>Project 1</h3>
-            <p>Description of Project 1.</p>
-            <!-- Add more details or links as needed -->
-        </div>
-        <div class="repo">
-            <h3>Project 2</h3>
-            <p>Description of Project 2.</p>
-            <!-- Add more details or links as needed -->
-        </div>
-        <!-- Add more repositories as needed -->
-    </section>
-
-    <section class="github-section">
-        <h2>GitHub Releases</h2>
-        <div class="release">
-            <h3>Version 1.0</h3>
-            <p>Release notes for version 1.0.</p>
-            <!-- Add more details or links as needed -->
-        </div>
-        <!-- Add more releases as needed -->
-    </section>
-
-    <section class="achievements-section">
-        <h2>Achievements</h2>
-        <div class="achievement">
-            <h3>Code Contributor of the Month</h3>
-            <p>Awarded for significant contributions to open-source projects.</p>
-            <!-- Add more achievements as needed -->
-        </div>
-    </section>
-
-    <section class="certifications-section">
-        <h2>Certifications</h2>
-        <div class="certification">
-            <h3>Web Developer Certification</h3>
-            <p>Issued by XYZ Certification Authority.</p>
-            <!-- Add more certifications as needed -->
-        </div>
-    </section>
-
-    <section class="cv-section">
-        <h2>Curriculum Vitae</h2>
-        <div class="cv">
-            <h3>Education</h3>
-            <p>University Name, Degree in Computer Science, Graduation Year</p>
-            <!-- Add more education details as needed -->
-
-            <h3>Work Experience</h3>
-            <p>Company Name, Position, Duration</p>
-            <!-- Add more work experience details as needed -->
-        </div>
-    </section>
-
-</div>
-
-<footer>
-    <p>&copy; 2023 Your Name. All rights reserved.</p>
-</footer>
-
+    <div class="container">
+        {{ content }}
+    </div>
 </body>
 </html>
