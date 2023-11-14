@@ -1,1 +1,39 @@
-theme: jekyll-theme-minimal
+title: Your GitHub Profile
+email: your.email@example.com
+description: Web Developer | GitHub Enthusiast
+
+# GitHub Repositories
+repositories:
+  - name: Project 1
+    description: Description of Project 1
+    link: https://github.com/your-username/project1
+
+  - name: Project 2
+    description: Description of Project 2
+    link: https://github.com/your-username/project2
+
+# GitHub Releases
+releases:
+  - version: 1.0
+    notes: Release notes for version 1.0
+
+# Achievements
+achievements:
+  - title: Code Contributor of the Month
+    description: Awarded for significant contributions to open-source projects.
+
+# Certifications
+certifications:
+  - title: Web Developer Certification
+    issuer: XYZ Certification Authority
+
+# CV
+education:
+  - degree: Degree in Computer Science
+    institution: University Name
+    graduation_year: 2022
+
+work_experience:
+  - position: Software Developer
+    company: Acme Inc.
+    duration: 2019 - Present
