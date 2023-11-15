@@ -1,119 +1,29 @@
-# Base configuration
-theme: jekyll-theme-minimal
-title: Your GitHub Profile
-email: your.email@example.com
-description: Web Developer | GitHub Enthusiast
-
-# Navigation
-nav_links:
-  - text: GitHub Repositories
-    link: "#repositories"
-  - text: GitHub Releases
-    link: "#releases"
-  - text: Achievements
-    link: "#achievements"
-  - text: Certifications
-    link: "#certifications"
-  - text: CV
-    link: "#cv"
-
-# GitHub Repositories
-repositories:
-  - name: Project 1
-    description: Description of Project 1
-    link: https://github.com/your-username/project1
-
-  - name: Project 2
-    description: Description of Project 2
-    link: https://github.com/your-username/project2
-
-# GitHub Releases
-releases:
-  - version: 1.0
-    notes: Release notes for version 1.0
-
-# Achievements
-achievements:
-  - title: Code Contributor of the Month
-    description: Awarded for significant contributions to open-source projects.
-
-# Certifications
-certifications:
-  - title: Web Developer Certification
-    issuer: XYZ Certification Authority
-
-# CV
-education:
-  - degree: Degree in Computer Science
-    institution: University Name
-    graduation_year: 2022
-
-work_experience:
-  - position: Software Developer
-    company: Acme Inc.
-    duration: 2019 - Present
-
-# GitHub Pages with Jekyll
-github_pages:
-  title: GitHub Pages
-  tagline: Your sidekick in using GitHub Pages and blogs
-  description: Learn how to create a site or blog from your GitHub repositories with GitHub Pages.
-  tags:
-    - GitHub
-    - GitHub Pages
-  template:
-    name: github-pages-with-jekyll
-    repo: github-pages-with-jekyll-template
-  preferences:
-    - type: dropdown
-      name: language
-      label: Language
-      description: Choose your preferred language.
-      options:
-        - label: English
-          value: en
-        - label: Español
-          value: es
-  steps:
-    - title: Generate a GitHub Pages site
-      description: Generate a GitHub Pages site with the automatic page generator.
-      event: page_build
-      link: '{{ repoUrl }}/issues/1'
-      actions:
-        - type: octokit
-          method: repos.getPages
-          owner: '%payload.repository.owner.login%'
-          repo: '%payload.repository.name%'
-          action_id: pagesUrl
-        - type: respond
-          issue: 1
-          with: 01_update-index.md
-          data:
-            deploymentUrl: '%actions.pagesUrl.data.html_url%'
-        - type: updateBranchProtection
-    # ... Other steps for GitHub Pages with Jekyll
-
 # Site settings
-site_settings:
-  title: Your awesome title
-  email: your-email@domain.com
-  description: Write an awesome description for your new site here.
-  baseurl: "/example"
-  url: "http://jekyll.github.io"
-  twitter_username: jekyllrb
-  github_username: jekyll
+theme: jekyll-theme-slate # Specify the Jekyll theme you want to use
+title: Karthick Jayaraman
+description:
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "https://karthick-840.github.io/" # the base hostname & protocol for your site
+
+# Collections
+collections:
+  collection_name:
+    output: true
+
+header_pages:
+  - _pages/about.md
+  - _pages/contact.md
+  - _pages/portfolio.md
+  
+
 
 # Build settings
 build_settings:
   markdown: kramdown
-  permalink: /:year/:title:output_ext
-  lsi: false
-  safe: true
-  source: [your repo's top level directory]
-  incremental: false
-  highlighter: rouge
-  gist:
-    noscript: false
-  kramdown:
-    math_engine: mathjax
-    syntax_highlighter: rouge
+  plugins:
+  - jekyll-feed # Enables automatic generation of an Atom feed
+  github_pages:
+    jekyll_version: 3.9.0 # Specify the Jekyll version to use
