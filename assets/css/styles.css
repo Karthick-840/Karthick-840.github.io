@@ -179,7 +179,41 @@ img {
 .show {
   right: 0;
 }
+.nav__list .dropdown-toggle {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  padding: 0.0rem 0rem;
+  display: block;
+}
 
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  z-index: 1;
+}
+
+/* Show Dropdown Menu */
+.nav__list .dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Dropdown Item */
+.dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Hover Effect on Dropdown Item */
+.dropdown-menu a:hover {
+  background-color: #f5f5f5;
+}
 /*===== HOME =====*/
 .home {
   position: relative;
