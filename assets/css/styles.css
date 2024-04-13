@@ -164,6 +164,10 @@ img {
   cursor: pointer;
 }
 
+.nav__icon {
+  width: 16px; /* Adjust width as needed */
+  height: 16px; /* Adjust height as needed */
+}
 /*Active menu*/
 .active-link::after {
   position: absolute;
@@ -413,6 +417,19 @@ img {
 }
 
 /* ===== FOOTER =====*/
+.horizontal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.horizontal-list li {
+  display: inline-block;
+}
+
+.horizontal-list li:not(:last-child) {
+  margin-right: 10px; /* Adjust the spacing between items as needed */
+}
 .footer {
   background-color: var(--second-color);
   color: #fff;
