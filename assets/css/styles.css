@@ -234,13 +234,14 @@ img {
 .home__container {
   display: grid;
   grid-template-columns: 1fr 2fr; /* Divide into two columns */
-  gap: 20px;
+  gap: 30px;
   align-items: center;
 }
 
 .home__left {
   display: flex;
   justify-content: center;
+  align-items: flex-start; /* Align items to the top */
 }
 
 .home__right {
@@ -271,6 +272,11 @@ img {
   flex: 1;    
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom: -10; /* Reduce bottom margin */
+  padding-bottom: 0; /* Reduce bottom padding */
 }
 
 
@@ -416,7 +422,44 @@ img {
   margin-left: auto;
 }
 
-/* ===== FOOTER =====*/
+/* ===== FOOTER ===== */
+.footer {
+  background-color: var(--second-color);
+  color: #fff;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+  position: fixed; /* Fix the position of the footer */
+  bottom: 0; /* Align the footer to the bottom of the viewport */
+  height: 150px; /* Adjust the height as needed */
+  width: 100%; /* Make the footer span the entire width of the viewport */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-around; /* Horizontally align the columns with space between them */
+  align-items: center; /* Vertically center the content within each column */
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+  gap: 150px; /* Adjust the gap between grid items as needed */
+}
+
+.footer-navigation, .footer-contact, .footer-logo {
+  padding: 0 10px; /* Adjust padding as needed */
+  text-align: left;
+}
+
+.footer-navigation {
+  margin-left: 20px; /* Add margin to the left side of the navigation text */
+}
+
+.footer-logo {
+  margin-top: 30px; /* Add margin to the top side of the logo */
+  margin-right: 20px; /* Add margin to the right side of the logo */
+  margin-bottom: 10px; /* Add margin to the bottom side of the logo */
+  margin-left: 20px; /* Add margin to the left side of the logo */
+}
+
 .horizontal-list {
   list-style: none;
   padding: 0;
@@ -430,28 +473,9 @@ img {
 .horizontal-list li:not(:last-child) {
   margin-right: 10px; /* Adjust the spacing between items as needed */
 }
-.footer {
-  background-color: var(--second-color);
-  color: #fff;
-  text-align: center;
-  font-weight: var(--font-semi);
-  padding: 2rem 0;
-}
-.footer__title {
-  font-size: 2rem;
-  margin-bottom: var(--mb-4);
-}
-.footer__social {
-  margin-bottom: var(--mb-4);
-}
-.footer__icon {
-  font-size: 1.5rem;
-  color: #fff;
-  margin: 0 var(--mb-2);
-}
-.footer__copy {
-  font-size: var(--smaller-font-size);
-}
+
+
+
 
 /* ===== MEDIA QUERIES=====*/
 @media screen and (max-width: 320px) {
