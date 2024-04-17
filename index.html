@@ -2,14 +2,18 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Karthick Jayaraman</title>
+        <link rel="icon" type="image/png" href="assets/img/Logo 2.jpg">
 
         <link rel="stylesheet" href="assets/css/styles.css">
-
-        <!-- =====BOX ICONS===== -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-        <title>Karthick Jayaraman</title>
     </head>
     <body>
         <!--===== HEADER =====-->
@@ -24,18 +28,17 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
                         <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#experiences" class="nav__link">Experiences</a></li>
+                        <li class="nav__item"><a href="#experiences" class="nav__link">Experience</a></li>
                         <li class="nav__item"><a href="#education" class="nav__link"> Education</a></li>
                         <li class="nav__item dropdown show"><a class="nav__link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#projects">Projects</a>
-                                <a class="dropdown-item" href="#publications">Publications</a>
-                                <a class="dropdown-item" href="#featured-posts">Featured Posts</a>
-                                <a class="dropdown-item" href="#recent-posts">Recent Posts</a>
+                                <a class="dropdown-item" href="#web-apps">Web Applications</a>
+                                <a class="dropdown-item" href="#posts">Featured Posts</a>
                                 <a class="dropdown-item" href="#accomplishments">Accomplishments</a>
-                                <a class="dropdown-item" href="#achievements">Achievements</a>
+                                <a class="dropdown-item" href="#publications">Publications</a>
                             </div>
                         </li>
                     </ul>
@@ -86,7 +89,12 @@
                                 <a href="https://www.kaggle.com/karthickjayaraman" class="home__social-icon"><i class='bx bxl-kickstarter'></i> Kaggle</a>
                             </div>
                         </div>
-                        <a href="assets/pdf/Karthick_CV_with_Git.pdf" class="button" target="_blank">My Resume</a>
+                        <div class="button-con">
+                            <a href="assets/pdf/Karthick_CV_with_Git.pdf" class="button" target="_blank">
+                                <span class="button-text">My Resume</span>
+                                <span class="button-icon"><i class="fas fa-download"></i></span>
+                            </a>    
+                        </div>
 
                     </div>
                     
@@ -132,12 +140,15 @@
                 </div>
             </section>
 
-            <!--===== WORK =====-->
-            <section class="work section" id="work">
-                <h2 class="section-title">Work</h2>
-                
-
+            <!--===== EXPERIENCES =====-->
+            <section class="work section" id="experiences">
+                <h2 class="section-title">Experience</h2>
             </section>
+
+             <!--===== EDUCATION =====-->
+            <section class="work section" id="education
+                <h2 class="section-title">Education</h2>
+            </section>           
 
             <!--===== PROJECTS =====-->
             <section class="projects section" id="projects">
@@ -165,54 +176,125 @@
                 </div>
             </section>
 
-             <!--===== ABOUT =====-->
-             <section class="about section " id="about">
-                <h2 class="section-title">Hobbies</h2>
+             <!--===== WEB APPLICATIONS =====-->
+            <section class="projects section" id="web-apps">
+                <h2 class="section-title">Web Applications</h2>
 
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/about.jpg" alt="">
-                    </div>
-                    
-                    <div>
-                        <h2 class="about__subtitle">I'am Karthick</h2>
-                        <p class="about__text">I leverage my experience in big data analysis to address bottlenecks in Seed Business. With my team, I address operational challenges in Production, Manufacturing and SCM and support them to make data-driven business decisions.</p>           
-                    </div>                                   
+                <div class="projects__container bd-grid">
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
                 </div>
-            </section>
+            </section>           
 
-            <!--===== CONTACT =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contact</h2>
+            <!--===== FEATURED POSTS =====-->
+            <section class="projects section" id="posts">
+                <h2 class="section-title">Featured Posts</h2>
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
-                    </form>
+                <div class="projects__container bd-grid">
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
                 </div>
-            </section>
-        </main>
+            </section>            
+
+            <!--===== ACCOMPLISHMENTS =====-->
+            <section class="projects section" id="accomplishments">
+                <h2 class="section-title">Accomplisments</h2>
+
+                <div class="projects__container bd-grid">
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>            
+
+            <!--===== PUBLICATIONS =====-->
+            <section class="projects section" id="publications">
+                <h2 class="section-title">Publications</h2>
+
+                <div class="projects__container bd-grid">
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work1.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work2.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work3.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work4.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work5.jpg" alt="">
+                    </a>
+                    <a href="" class="projects__img">
+                        <img src="assets/img/work6.jpg" alt="">
+                    </a>
+                </div>
+            </section>            
+
 
         <!--===== FOOTER =====-->
    
         <footer id="footer" class="container-fluid text-center align-content-center footer pb-2">
             <div class="container pt-5 footer-grid">
-                <div class="footer-navigation">
-                    <h5>Navigation</h5>
-                    <ul class="horizontal-list">
-                        <li class="nav-item"><a class="smooth-scroll" href="https://hugo-toha.github.io/#about">About</a></li>
-                        <!-- Add more list items for navigation -->
-                    </ul>
-                </div>
+                
                 <div class="footer-contact">
                     <h5>Contact</h5>
                     <p>Email: example@example.com</p>
                     <p>Phone: +1234567890</p>
                 </div>
-                <div class="footer-logo">
+
+
+
+                <div class="footer-logo" href="#home">
                     <img src="assets/img/Logo 2.jpg" alt="Logo" width="100">
                 </div>
             </div>
