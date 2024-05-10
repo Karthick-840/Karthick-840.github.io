@@ -702,11 +702,21 @@ img {
 
 /*Services*/
 /* Service card styling */
+
+.service-container {
+  display: flex;  /* Use flexbox for row layout */
+  flex-wrap: wrap;  /* Allow wrapping to multiple rows if needed */
+  justify-content: center;  /* Center content horizontally */
+  margin-top: 1rem;
+  padding: 7rem 11rem;  /* Adjust padding as desired */
+}
+
 .service-card {
   background-color: var(--color-white);
   border-radius: 5px;
   padding: 20px;
   transition: all 0.3s ease;
+  margin-right: 0;  /* Remove margin-right for better spacing */
 }
 
 .service-card:hover {
