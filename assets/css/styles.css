@@ -98,6 +98,44 @@ img {
   margin-left: var(--mb-2);
   margin-right: var(--mb-2);
 }
+.main-title {
+  position: relative; /* Enable relative positioning for layering */
+  font-size: var(--h2-font-size);
+  color: var(--third-color);
+  margin-top: var(--mb-2);
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
+.bg-text {
+  position: absolute; /* Make background text element absolute */
+  top: 50%; /* Position vertically at 50% */
+  left: 50%; /* Position horizontally at 50% */
+  transform: translate(-50%, -50%); /* Center the element based on its own size */
+  color: transparent; /* Make text invisible */
+  text-shadow: -1px 0 0 var(--first-color), 1px 0 0 var(--first-color), 0 -1px 0 var(--first-color), 0 1px 0 var(--first-color); /* Text shadow for outline */
+  font-size: 2em; /* Adjust font size for bigger text */
+  z-index: -1; /* Place behind the title text */
+  text-align: center; /* Ensure text alignment is centered */
+  opacity: 0.5; /* Add opacity to control outline visibility */
+}
+
+.main-title::after {
+  position: absolute;
+  content: "";
+  width: 100%; /* Set width to 100% for full coverage */
+  height: 0.18rem; /* Adjust height as needed */
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 2rem; /* Adjust top position as needed */
+  background-color: var(--third-color);
+  opacity: 0; /* Initially hide the underline */
+  transition: opacity 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+
+
+
 
 .section-title {
   position: relative;
