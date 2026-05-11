@@ -1,0 +1,209 @@
+{
+  "profile": {
+    "name": "Karthick Jayaraman",
+    "target_role": "Senior Data Engineer | Data Team Lead",
+    "hero_headline": "Building Scalable Data Systems",
+    "aspiration_statement": "Transitioning from a Research Scientist background into Senior Data Engineering and Team Leadership — turning complex, raw data into reliable, scalable infrastructure that powers strategic decisions.",
+    "avatar_url": "about.jpg",
+    "logo_url": "header_small-removebg.png",
+    "resume_url": "assets/Modern_CV/pdf/Karthick_CV_with_Git.pdf",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/karthick840/",
+      "github": "https://github.com/Karthick-840",
+      "medium": "https://www.medium.com/@karthick840.",
+      "kaggle": "https://www.kaggle.com/karthickjayaraman",
+      "twitter": "https://twitter.com/KaRtHiCk840",
+      "instagram": "https://www.instagram.com/karthick840/"
+    }
+  },
+
+  "pillars": [
+    {
+      "id": "data-architecture",
+      "icon": "fas fa-project-diagram",
+      "title": "Data Architecture",
+      "description": "INSERT: Describe your approach to designing scalable data pipelines, lakehouse patterns, and orchestration frameworks (Airflow, Spark, dbt).",
+      "cta_label": "View Projects",
+      "cta_href": "#projects"
+    },
+    {
+      "id": "scientific-context",
+      "icon": "fas fa-flask",
+      "title": "Scientific Context",
+      "description": "INSERT: Your research background — how domain science (seed biology, agronomy, statistics) informs the data problems you solve and the questions you ask.",
+      "cta_label": "Publications",
+      "cta_href": "#blog"
+    },
+    {
+      "id": "leadership-strategy",
+      "icon": "fas fa-users-cog",
+      "title": "Leadership & Strategy",
+      "description": "INSERT: Your team-lead philosophy — mentoring engineers, defining data contracts, aligning engineering roadmap with business OKRs.",
+      "cta_label": "Learn More",
+      "cta_href": "#timeline"
+    }
+  ],
+
+  "skills": {
+    "engineering": [
+      { "name": "Python", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" },
+      { "name": "SQL / dbt", "icon": "fas fa-database" },
+      { "name": "Apache Spark", "icon": "fas fa-bolt" },
+      { "name": "Apache Airflow", "icon": "fas fa-wind" },
+      { "name": "Docker", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" },
+      { "name": "AWS", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" },
+      { "name": "GCP", "icon": "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg" },
+      { "name": "ETL / ELT", "icon": "fas fa-exchange-alt" },
+      { "name": "Databricks", "icon": "fas fa-layer-group" },
+      { "name": "INSERT SKILL", "icon": "fas fa-plus-circle" }
+    ],
+    "science": [
+      { "name": "Statistical Modelling", "icon": "fas fa-chart-bar" },
+      { "name": "R", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/r/r-original.svg" },
+      { "name": "Scikit-Learn", "icon": "https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" },
+      { "name": "Research Methodology", "icon": "fas fa-microscope" },
+      { "name": "Data Analysis", "icon": "fas fa-search-plus" },
+      { "name": "INSERT SKILL", "icon": "fas fa-plus-circle" }
+    ],
+    "leadership": [
+      { "name": "Technical Mentorship", "icon": "fas fa-chalkboard-teacher" },
+      { "name": "Project Management", "icon": "fas fa-tasks" },
+      { "name": "Agile / Scrum", "icon": "fas fa-sync-alt" },
+      { "name": "Data Contracts", "icon": "fas fa-file-contract" },
+      { "name": "Stakeholder Alignment", "icon": "fas fa-handshake" },
+      { "name": "INSERT SKILL", "icon": "fas fa-plus-circle" }
+    ]
+  },
+
+  "timeline": [
+    {
+      "period": "INSERT YEAR – INSERT YEAR",
+      "role": "Research Assistant",
+      "organisation": "INSERT University / Institute",
+      "description": "INSERT: Describe your early research work — experiments, datasets, tools. Highlight data analysis responsibilities.",
+      "type": "science"
+    },
+    {
+      "period": "INSERT YEAR – INSERT YEAR",
+      "role": "INSERT Role (e.g. Data Analyst)",
+      "organisation": "INSERT Company",
+      "description": "INSERT: Bridge role — how you moved from research output to building analytical pipelines or BI dashboards.",
+      "type": "analytics"
+    },
+    {
+      "period": "INSERT YEAR – present",
+      "role": "Data Engineer",
+      "organisation": "INSERT Company",
+      "description": "I leverage my experience in big data analysis to address bottlenecks in Seed Business. My team tackles operational hurdles in Seed Production, Manufacturing, and SCM.",
+      "type": "engineering"
+    },
+    {
+      "period": "TARGET: 2025 – 2026",
+      "role": "Senior Data Engineer / Team Lead",
+      "organisation": "NEXT CHAPTER",
+      "description": "INSERT: Where you are going — the role you are targeting, the team you want to build or join.",
+      "type": "target"
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Data Pipeline — INSERT PROJECT NAME",
+      "description": "INSERT: Describe the data problem solved, the pipeline architecture, and the business impact.",
+      "tech_stack": ["Python", "Airflow", "AWS", "INSERT TECH"],
+      "image_url": "port1.jpg",
+      "link": "https://github.com/Karthick-840",
+      "category": "engineering"
+    },
+    {
+      "title": "Analytics — INSERT PROJECT NAME",
+      "description": "INSERT: Describe the analytical model or dashboard built, data sources used, and key findings.",
+      "tech_stack": ["Python", "SQL", "PowerBI", "INSERT TECH"],
+      "image_url": "port2.jpg",
+      "link": "https://github.com/Karthick-840",
+      "category": "analytics"
+    },
+    {
+      "title": "Research — INSERT PROJECT NAME",
+      "description": "INSERT: Describe the scientific question, dataset, methodology, and outcome or publication.",
+      "tech_stack": ["R", "Statistics", "INSERT TECH"],
+      "image_url": "port3.jpg",
+      "link": "https://github.com/Karthick-840",
+      "category": "science"
+    },
+    {
+      "title": "INSERT PROJECT TITLE",
+      "description": "INSERT: Project description — what problem does it solve, what data does it process?",
+      "tech_stack": ["INSERT TECH", "INSERT TECH"],
+      "image_url": "port4.jpg",
+      "link": "https://github.com/Karthick-840",
+      "category": "engineering"
+    }
+  ],
+
+  "certifications": [
+    {
+      "title": "AWS Cloud Quest: Cloud Practitioner",
+      "image_url": "cloud_quest_practioner.png",
+      "link": "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
+    },
+    {
+      "title": "Career Essentials in GitHub – Professional Certificate",
+      "image_url": "Github_Certificate.png",
+      "link": "https://www.linkedin.com/learning/certificates/3d878b1d9e485eb813f9e660cf744072d778b178fa0dba7e3768b84b3095df45"
+    },
+    {
+      "title": "Databricks Data Lakehouse Fundamentals",
+      "image_url": "databricks_data_lakehouse.png",
+      "link": "https://credentials.databricks.com/6759891b-9699-46ec-adb1-af5062f9fa04#gs.96glx6"
+    },
+    {
+      "title": "IBM Statistics for Data Science with Python",
+      "image_url": "Statistics_for_Data_Science_with_Python.png",
+      "link": "https://www.credly.com/badges/2917ef5f-a0e3-4b41-ae07-a6b58ccd5580/linked_in?t=s6fd2o"
+    },
+    {
+      "title": "Databricks Generative AI Fundamentals",
+      "image_url": "databricks_Gen_AI.jpg",
+      "link": "https://credentials.databricks.com/bc3942f9-9ab6-403a-bea7-0722cea7c3f9"
+    },
+    {
+      "title": "Prompt Engineering for ChatGPT",
+      "image_url": "Prompt-engineering.jpeg",
+      "link": "https://www.coursera.org/account/accomplishments/verify/USTWUX7W4MEH"
+    }
+  ],
+
+  "blog": [
+    {
+      "title": "Upcoming: Scaling Data Teams — From Solo Engineer to Lead",
+      "date": "2026",
+      "status": "Draft",
+      "tags": ["Leadership", "Data Engineering"],
+      "summary": "INSERT: What lessons have you learned about growing a data team? How do you define data contracts and enforce quality at scale?",
+      "link": "#"
+    },
+    {
+      "title": "Upcoming: Lakehouse Architecture for Seed Business Analytics",
+      "date": "2026",
+      "status": "Draft",
+      "tags": ["Databricks", "Delta Lake", "Agriculture"],
+      "summary": "INSERT: How the medallion architecture (Bronze/Silver/Gold) solved your domain's data quality problems.",
+      "link": "#"
+    },
+    {
+      "title": "Upcoming: From Research Bench to Data Pipeline",
+      "date": "2026",
+      "status": "Draft",
+      "tags": ["Career", "Data Science", "Python"],
+      "summary": "INSERT: Your personal story — what transferable skills from scientific research make a better data engineer?",
+      "link": "#"
+    }
+  ],
+
+  "contact": {
+    "email": "karthick840@yahoo.in",
+    "phone": "+31 684664642",
+    "location": "Netherlands"
+  }
+}
